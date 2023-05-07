@@ -1,0 +1,12 @@
+#name	length
+scaffold_1	4522394
+scaffold_2	4046157
+scaffold_3	3457480
+scaffold_4	3139441
+scaffold_5	3066061
+scaffold_6	2854522
+scaffold_7	2761594
+scaffold_8	2682980
+scaffold_9	2669655
+scaffold_10	2530399
+scaffold_11	2369736
