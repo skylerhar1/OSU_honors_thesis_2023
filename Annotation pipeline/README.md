@@ -3,7 +3,7 @@ Overview of the process can also be found at: https://funannotate.readthedocs.io
 
 an example of using SGE_Batch: `eval "$(conda shell.bash hook)" conda activate /local/cluster/funannotate-1.8.9/ SGE_Batch -c "<script you want to run>" -r <log_name> -q <node EX:bpp@galls> -P <#CPU's> -m
 
-conda deactivate`
+This is the pipeline used to annotate the redundans assembly
 
 _gapcloser.1.2 was obtained from /nfs1/BPP/Spatafora_Lab/paez/Pogon_assembly/P212_Ass/redundans/scaffolding-closing_test/_gapcloser.1.2.fa
 
