@@ -1,7 +1,8 @@
 # Reference-genome-annotation
 Overview of the process can also be found at: https://funannotate.readthedocs.io/en/latest/tutorials.html Most of these processes were run through SGE_Batch except for "sort", "clean" and "mask" steps were ran through qrsh
 
-an example of using SGE_Batch: `eval "$(conda shell.bash hook)" conda activate /local/cluster/funannotate-1.8.9/ SGE_Batch -c "<script you want to run>" -r <log_name> -q <node EX:bpp@galls> -P <#CPU's> -m`
+an example of using SGE_Batch: `eval "$(conda shell.bash hook)" conda activate /local/cluster/funannotate-1.8.9/ 
+SGE_Batch -c "<script you want to run>" -r <log_name> -q <node EX:bpp@galls> -P <#CPU's> -m`
 
 This is the pipeline used to annotate the redundans assembly
 gap_closed_fasta is the gap closed assembly. This assembly was not sorted by scaffold length at the time of annotation.
