@@ -7,6 +7,19 @@ The HI-C assembly was performed by Phase genomics
 
 > ./gap_closer.sh
 
-# Basic Genome Statisticcs
+# Basic Genome Statistics
+|                          | Rhizopogon salebrosus |
+|--------------------------|-----------------------|
+| isolate                  | P212                  |
+| locus_tag                | FUN                   |
+| Assembly Size            | 34,100,419 bp         |
+| Largest Scaffold         | 4,522,394 bp          |
+| Average Scaffold         | 3,100,038 bp          |
+| Num Scaffolds            | 11                    |
+| Scaffold N50             | 3,066,061 bp          |
+| Percent GC               | 48.72%                |
+| Num Genes                | 13,042                |
+| Num Proteins             | 14,285                |
+| Num tRNA                 | 99                    |
 
 
