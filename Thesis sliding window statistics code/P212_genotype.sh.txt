@@ -1,0 +1,17 @@
+#!/bin/bash
+#eval "$(conda shell.bash hook)"
+#conda activate /nfs1/BPP/Spatafora_Lab/hars/opt/base_conda/envs
+mkdir -p P212_genotyped
+cd P212_gvcf
+for vcf_file in *.g.vcf.gz
+do
+
+    input_vcf="$vcf_file"
+    reference="/nfs1/BPP/Spatafora_Lab/skyler_caro_shared_dir/gap_closer.fasta"
+
+
+    CMD="/raid1/home/bpp/tabimaj/bin/gatk-4.0.1.2/gatk --java-options '-Xmx40g -Djava.io.tmpdir=/data -XX:ParallelGCThreads=6' GenotypeGVCFs -R $reference -V $input_vcf -new-qual -O ../P212_genotyped/${vcf_file::-9}.vcf.gz"
+    echo $CMD
+    eval $CMD
+done
+#conda deactivate

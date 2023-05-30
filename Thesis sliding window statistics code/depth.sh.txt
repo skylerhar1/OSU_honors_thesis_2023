@@ -1,0 +1,1 @@
+samtools depth P212_filtered_1.fq.gz.reindel.bam > gap_closed_depth.txt

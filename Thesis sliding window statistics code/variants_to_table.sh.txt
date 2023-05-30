@@ -1,0 +1,6 @@
+#!/bin/bash
+#used to convert a vcf file to  a SNP table
+gatk VariantsToTable \
+-V /nfs1/BPP/Spatafora_Lab/skyler_caro_shared_dir/P212_genotyped/P212_bi_filtered.recode.vcf \
+-F CHROM -F POS -F TYPE -F HET -F HOM-REF -F HOM-VAR \
+-O /nfs1/BPP/Spatafora_Lab/skyler_caro_shared_dir/P212_genotyped/SNP_table.txt
